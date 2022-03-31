@@ -1,7 +1,7 @@
-# Личный проект «Пинк» 
+# Личный проект «Пинк»
 
-* Студент: [Константин Зайцев](https://up.htmlacademy.ru/adaptive/25/user/1872463).
-* Наставник: `Неизвестно`.
+- Студент: [Константин Зайцев](https://up.htmlacademy.ru/adaptive/25/user/1872463).
+- Наставник: [Виктор Гирда] (https://htmlacademy.ru/profile/viktorgirda).
 
 ---
 
