@@ -1,2 +1,193 @@
-
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.page__body {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-header {
+  padding-top: 21px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: url("../img/background/back-mobile.png");
+}
+.main-header--general {
+  background: url("../img/background/hand-with-phone.png") repeat-x 0 217px, url("../img/background/back-mobile.png");
+}
+.main-header__intro--general {
+  padding-top: 29px;
+  padding-bottom: 320px;
+}
+.main-header__tagline {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+}
+.main-nav {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.download {
+  padding-top: 28px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #1D2631;
+}
+.download__button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 21px;
+  padding-right: 39px;
+  padding-bottom: 21px;
+  padding-left: 38px;
+  border: 3px solid #ffffff;
+  border-radius: 29px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+.download__intro {
+  padding-bottom: 38px;
+}
+.download__intro {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.features__wrapper {
+  /*
+  padding-left: 20px;
+  padding-right: 20px;
+  */
+}
+.features-intro {
+  margin: 0;
+  padding-top: 46px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  background: url("../img/background/back-grey.png") repeat-x 0 204px;
+  background-color: #ffffff;
+}
+.features-intro__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  text-align: center;
+  color: #283645;
+  margin: 0;
+  margin-bottom: 9px;
+}
+.features-pink {
+  padding-top: 53px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.features-pink--back-iphone-friends {
+  background: #f2f2f2 url("../img/background/back-iphone-friends.png") no-repeat center 550px;
+}
+.features-pink__list {
+  margin: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 282px;
+  padding-left: 0;
+  list-style-type: none;
+}
+.features-pink__item {
+  margin-bottom: 43px;
+}
+.features-pink__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+}
+.features-pink__text {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #283645;
+}
+.reviews {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #ffffff url("../img/background/back-grey.png") repeat-x 0 204px;
+}
+.reviews__item {
+  margin: 0;
+  margin-bottom: 44px;
+  padding: 0;
+}
+.reviews__author-name {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.reviews__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #283645;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
