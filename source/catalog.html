@@ -2,36 +2,41 @@
   <head>
     <meta charset="UTF-8" />
     <title>Учебный проект: Мобильное фотоприложение «Пинк» страница Каталога</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo">
-        <img class="main-header__logo-image" src="img/logotype-pink.svg" width="74" height="23" alt="Фотоприложение «Пинк»."/>
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="index.html">Главная</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#">Фотографии</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="competition.html">Конкурс</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#">Html Academy</a>
-            </li>
-          </ul>
+      <div class="main-header__wrapper">
+        <div class="main-header__logo-btn">
+          <a class="main-header__logo">
+            <img class="main-header__logo-image" src="img/logotype-pink.svg" width="74" height="23" alt="Фотоприложение «Пинк»."/>
+          </a>
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
         </div>
-        <div class="main-nav__intro">
-          <h2 class="main-nav__title">Фотографии пользователей</h2>
+        <nav class="main-nav">
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="index.html">Главная</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Фотографии</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="competition.html">Конкурс</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Html Academy</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="main-header__intro">
+          <h2 class="main-header__title">Фотографии пользователей</h2>
         </div>
-      </nav>
+      </div>
     </header>
     <main class="main-container">
       <h1 class="visually-hidden">Мобильное фотоприложение «Пинк»</h1>
